@@ -25,5 +25,9 @@ function percentage(){
 }
 
 function fact(){
+    if(screen.value===0 || screen.value===1)return 1;
+    for(var i= screen.value -1; i >=1; i--)
+    {screen.value *=i; }
+    return screen.value;
     
 }
